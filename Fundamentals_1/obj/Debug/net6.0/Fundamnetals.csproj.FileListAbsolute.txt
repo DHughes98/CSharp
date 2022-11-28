@@ -1,0 +1,15 @@
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\bin\Debug\net6.0\Fundamnetals.exe
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\bin\Debug\net6.0\Fundamnetals.deps.json
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\bin\Debug\net6.0\Fundamnetals.runtimeconfig.json
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\bin\Debug\net6.0\Fundamnetals.dll
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\bin\Debug\net6.0\Fundamnetals.pdb
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.csproj.AssemblyReference.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.AssemblyInfoInputs.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.AssemblyInfo.cs
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.csproj.CoreCompileInputs.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.dll
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\refint\Fundamnetals.dll
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.pdb
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\Fundamnetals.genruntimeconfig.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Fundamnetals\obj\Debug\net6.0\ref\Fundamnetals.dll
