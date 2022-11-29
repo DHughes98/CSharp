@@ -45,4 +45,16 @@ foreach (int i in numberList)  {
 Console.WriteLine(i);
 }
 
+//Functions
+static string SayHello(){
+    return "Hello";
+}
 
+SayHello();
+//                 paramaters
+static int DoMath(int a, int b){
+    return a - b;
+}
+// arguments
+int result = DoMath(10, 20);
+Console.WriteLine(result);
