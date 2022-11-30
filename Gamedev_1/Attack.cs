@@ -1,6 +1,6 @@
 ﻿class Attack
 {
-    string Name;
+    public string Name;
     int Damage;
     
 

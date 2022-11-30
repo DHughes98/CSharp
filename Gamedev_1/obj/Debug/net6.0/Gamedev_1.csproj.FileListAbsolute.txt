@@ -1,0 +1,15 @@
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\bin\Debug\net6.0\Gamedev_1.exe
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\bin\Debug\net6.0\Gamedev_1.deps.json
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\bin\Debug\net6.0\Gamedev_1.runtimeconfig.json
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\bin\Debug\net6.0\Gamedev_1.dll
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\bin\Debug\net6.0\Gamedev_1.pdb
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.csproj.AssemblyReference.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.AssemblyInfoInputs.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.AssemblyInfo.cs
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.csproj.CoreCompileInputs.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.dll
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\refint\Gamedev_1.dll
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.pdb
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\Gamedev_1.genruntimeconfig.cache
+C:\Users\maste\OneDrive\Desktop\CSharp\Gamedev_1\obj\Debug\net6.0\ref\Gamedev_1.dll
