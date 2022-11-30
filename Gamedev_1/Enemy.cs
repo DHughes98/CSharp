@@ -2,12 +2,15 @@ class Enemy
 {
     string Name;
     int HP;
-    List<string> attacks;
+    List<Attack> attacks;
 
 
-public Enemy(string n, int HP, List<string> a){
-    Name = n;
-    attacks = a;
-}
+    public Enemy(string n, int HP)
+    {
+        Name = n;
+        attacks = new List<Attack>();
+    }
+
+
 
 }

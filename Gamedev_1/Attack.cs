@@ -7,6 +7,7 @@
  public Attack(string n, int d){
     Name = n;
     Damage = d;
+
  }
 
 }
