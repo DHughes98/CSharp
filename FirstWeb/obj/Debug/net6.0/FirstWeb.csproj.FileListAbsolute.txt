@@ -21,3 +21,4 @@ C:\Users\maste\OneDrive\Desktop\CSharp\FirstWeb\obj\Debug\net6.0\FirstWeb.genrun
 C:\Users\maste\OneDrive\Desktop\CSharp\FirstWeb\obj\Debug\net6.0\ref\FirstWeb.dll
 C:\Users\maste\OneDrive\Desktop\CSharp\FirstWeb\obj\Debug\net6.0\FirstWeb.RazorAssemblyInfo.cache
 C:\Users\maste\OneDrive\Desktop\CSharp\FirstWeb\obj\Debug\net6.0\FirstWeb.RazorAssemblyInfo.cs
+C:\Users\maste\OneDrive\Desktop\CSharp\FirstWeb\bin\Debug\net6.0\FirstWeb.staticwebassets.runtime.json

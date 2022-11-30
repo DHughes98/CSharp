@@ -31,4 +31,19 @@ public class HelloController : Controller
     {
         return $"This is user {id}";
     }
+
+    [HttpPost("process")]
+    public IActionResult Process(string FavoriteAnimal)
+    {
+        if(FavoriteAnimal == "dog")
+        {
+            ViewBag.Error = "Dogs are great but pick something else";
+            ViewBag.Name = "Dillon";
+            ViewBag.Number = 7;
+            return View("Index");
+        }
+        Console.WriteLine(FavoriteAnimal);
+        return RedirectToAction("Index");
+    }
+
 }
