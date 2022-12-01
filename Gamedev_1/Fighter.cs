@@ -9,7 +9,7 @@ class MeleeFighter : Enemy
     void  SuperAttack(Enemy Target)
     {
        Attack superAttack = RandomAttack();
-       Target.HP -= superAttack.Damage + 10;
+       Target.DmgTaken += superAttack.Damage + 10;
        
        Console.WriteLine($"{Name} used {superAttack.Name} on {Target.Name} for {superAttack.Damage} HP");
        
