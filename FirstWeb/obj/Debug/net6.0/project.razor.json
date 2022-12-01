@@ -16298,6 +16298,21 @@
   "RootNamespace": "FirstWeb",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "FirstMVC\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "FirstMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\_ViewImports.cshtml",
+      "TargetPath": "FirstMVC\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\Views\\Hello\\Index.cshtml",
       "TargetPath": "Views\\Hello\\Index.cshtml",
       "FileKind": "mvc"
@@ -16305,6 +16320,26 @@
     {
       "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\Views\\Hello\\Auser.cshtml",
       "TargetPath": "Views\\Hello\\Auser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\Home\\Index.cshtml",
+      "TargetPath": "FirstMVC\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "FirstMVC\\Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "FirstMVC\\Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\maste\\OneDrive\\Desktop\\CSharp\\FirstWeb\\FirstMVC\\Views\\_ViewStart.cshtml",
+      "TargetPath": "FirstMVC\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

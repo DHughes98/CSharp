@@ -1,7 +1,7 @@
 class Enemy 
 {
-    string Name;
-    int HP;
+    public string Name;
+    public int HP;
     public List<Attack> attackList;
 
 
@@ -13,12 +13,21 @@ class Enemy
         
     }
 
-public void RandomAttack()
+public virtual Attack RandomAttack()
 {
     Random randomAttack = new Random();
     int index = randomAttack.Next(0,attackList.Count);
-    Console.WriteLine($"Attack name: {attackList[index].Name}");
+    
+    return attackList[index];
+    // Console.WriteLine($"Attack name: {attackList[index].Name}");
 }
+
+    public virtual void DoAttack(Enemy Target)
+    {
+        Attack randomAttack = RandomAttack();
+        Target.HP -= randomAttack.Damage;
+        Console.WriteLine($"{Name} used {randomAttack.Name} on {Target.Name} for {randomAttack.Damage} HP");
+    }
 
 
 }

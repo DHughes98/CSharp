@@ -1,7 +1,7 @@
 ﻿class Attack
 {
     public string Name;
-    int Damage;
+    public int Damage;
     
 
  public Attack(string n, int d){
