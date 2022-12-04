@@ -13,16 +13,20 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+[HttpGet]
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+[HttpPost("result")]
+    public IActionResult Result(User newUser)
     {
-        return View();
+        if(ModelState.IsValid)
+            return View(newUser);
+        return View("Index");
+        
     }
-
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

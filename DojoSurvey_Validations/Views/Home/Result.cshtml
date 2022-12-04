@@ -1,41 +1,29 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Result";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results</title>
-</head>
-<body>
-    <h1>Submitted Information</h1>
-    <form>
-        <table>
-            <tr>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <td><h2>Name:</h2></td>
-                <td><h2>@ViewBag.name</h2></td>
-            </tr>
-            <tr>
-                <td><h2>Dojo Location:</h2></td>
-                <td><h2>@ViewBag.location</h2></td>
-            </tr>
-             <tr>
-                <td><h2>Favorite Language</h2></td>
-                <td><h2>@ViewBag.language</h2></td>
-            </tr>
-             <tr>
-                <td><h2>Comment:</h2></td>
-                <td><h2>@ViewBag.textarea</h2></td>
-            </tr>
-        </table>
-        <a href="/">Go back</a>
-    </form>
-</body>
-</html>
+@model User
+
+<style>
+    .wrapper {
+        border: 1px solid black;
+        width: 300px;
+        margin: auto;
+        padding: 20px;
+    }
+    h1 {
+        text-decoration: underline;
+    }
+    span {
+        font-weight: bold;
+    }
+</style>
+
+<div class="wrapper">
+    <h1>Submitted Info</h1>
+    <p><span>Name:</span> @Model.Name</p>
+    <p><span>Dojo Location:</span> @Model.Location</p>
+    <p><span>Favorite Language:</span> @Model.FavLanguage</p>
+    <p><span>Comment:</span> @Model.Comment</p>
+    <a href="/">Go Back</a>
+</div>

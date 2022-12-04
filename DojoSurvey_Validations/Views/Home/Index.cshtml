@@ -1,63 +1,48 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
+@model User
 
-<body>
-    <h1>Coding Dojo Survey</h1>
-    <form action="result" method="post" :>
-        <table>
-            <tr>
-                <th></th>
-                <th></th>
-            </tr>
-            <tr>
-                <td>
-                    <h2>Name:</h2>
-                </td>
-                <td>
-                    <input type="text" name="name">
-                </td>
-            </tr>
-            <td>
-                <h2>Dojo Location</h2>
-            </td>
-            <td>
-                <select name="location">
-                    <option value="Seattle">Seattle</option>
-                    <option value="Orange County">Orange County</option>
-                    <option value="Silicon Valley">Silicon Valley</option>
-                    <option value="Burbank">Burbank</option>
-                </select>
-            </td>
-            <tr>
-                <td>
-                    <h2>Favorite Language</h2>
-                </td>
-                <td>
-                    <select name="language">
-                        <option value="JavaScript">JavaScript</option>
-                        <option value="Python">Python</option>
-                        <option value="C#">C#</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-            </tr>
-        </table>
-                <p>Comment (optional)</p>
-        <textarea name="textarea" cols="30" rows="10"></textarea>
-        <input type="submit" value="Submit">
-    </form>
+<style>
+    form {
+        width: 500px;
+        border: 1px solid black;
+        padding: 30px;
+    }
+    span {
+        color: red;
+    }
+</style>
 
-</body>
-
-</html>
+<form asp-action="Result" asp-controller="Home" method="POST">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <span asp-validation-for="Name"></span>
+        <input type="text" class="form-control" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <label asp-for="Location"></label>
+        <span asp-validation-for="Location"></span>
+        <select asp-for="Location" class="form-control">
+            <option value="Seattle">Seattle</option>
+            <option value="San Jose">San Jose</option>
+            <option value="Online">Online</option>
+        </select>
+    </div>
+    <div class="class-group">
+        <label asp-for="FavLanguage"></label>
+        <span asp-validation-for="FavLanguage"></span>
+        <select asp-for="FavLanguage" class="form-control">
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Comment"></label>
+        <span asp-validation-for="Comment"></span>
+        <textarea asp-for="Comment" class="form-control" cols="10" rows="3"></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Submit">
+</form>
