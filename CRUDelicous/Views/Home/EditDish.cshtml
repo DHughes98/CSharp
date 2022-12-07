@@ -1,0 +1,44 @@
+@model Dish
+<main class="newDish">
+    <div>
+        <a href="/">Home</a>
+        <p>|</p>
+        <a href="/dishes/new">Add New Dish</a>
+    </div>
+    <div>
+        <form asp-action="UpdateDish" asp-controller="Home" asp-route-DishId="@Model.DishID" method="post">
+            <div>
+                <label asp-for="Chef">Chef's Name</label>
+                <input asp-for="Chef" class="form-control">
+                <span asp-validation-for="Chef" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Name">Name of Dish</label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Calories"># of Calories</label>
+                <input asp-for="Calories" class="form-control">
+                <span asp-validation-for="Calories" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Tastines"></label>
+                <select asp-for="Tastines" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <span asp-validation-for="Tastines" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Desciption"></label>
+                <textarea asp-for="Desciption" class="form-control"></textarea>
+                <span asp-validation-for="Desciption" class="text-danger"></span>
+            </div>
+            <input type="submit" value="Edit Dish" class="btn btn-primary">
+        </form>
+    </div>
+</main>

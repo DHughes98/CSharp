@@ -17,5 +17,5 @@ namespace DojoSurvey_Validations.Models;
     public string FavLanguage {get;set;}
 
 [MinLength(20, ErrorMessage = "Comment must be at least 20 characters")]
-    public string Comment {get;set;}
+    public string? Comment {get;set;}
 }

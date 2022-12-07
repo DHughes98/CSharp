@@ -1,0 +1,19 @@
+@model Dish
+<div class="text-center homepage">
+    <h1>@Model.Name</h1>
+    <div>
+        <a href="/">Home</a>
+        <p>|</p>
+        <a href="dishes/new">Add New Dish</a>
+    </div>
+    <h3>@Model.Name by @Model.Chef</h3>
+    
+    <p>@Model.Desciption</p>
+    <p>Calories: @Model.Calories</p>
+    <p>Tastiness: @Model.Tastines</p>
+    <div>
+        <form asp-action="DestroyDish" asp-controller="Home" asp-route-DishId="@Model.DishID" method="post">
+            <input class="btn btn-danger" type="submit" value="Delete">
+        </form>
+        <a class="btn btn-info" href="@Model.DishID/edit">Edit</a>
+    </div>
